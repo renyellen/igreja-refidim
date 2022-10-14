@@ -1,0 +1,59 @@
+/*========== IMPORTS ========== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+/*========== ROOT ========== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+a {
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+/*========== HOME ========== */
+
+.home_container_header {
+  width: 1100px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home_box_social_media {
+  width: 11%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home_header_nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
